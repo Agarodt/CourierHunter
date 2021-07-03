@@ -99,7 +99,7 @@ audio_play_sound(soundtrack,0,1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if mouse_check_button(mb_left) { room_goto(room2)}
+            <string>if mouse_check_button(mb_left) { room_goto(3)}
 </string>
           </argument>
         </arguments>

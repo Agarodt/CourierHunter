@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>global.yandex = 2
 global.samocat = 0
-global.total += 100
+global.points += 100
 
 if random(2) &lt;= 1 {
 instance_create(YandexDeadObjL.x, YandexDeadObjL.y - 120, ChickenObj)}

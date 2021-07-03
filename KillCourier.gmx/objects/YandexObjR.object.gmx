@@ -104,7 +104,7 @@ else {sp = 4}
           <argument>
             <kind>1</kind>
             <string>
-x = x + sp
+x = x + sp + global.acc
 
 </string>
           </argument>

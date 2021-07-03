@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 90
-global.total -= 1000
+global.points -= 1000
 audio_play_sound(failsound,1,false)
+global.fines += 1
 </string>
           </argument>
         </arguments>

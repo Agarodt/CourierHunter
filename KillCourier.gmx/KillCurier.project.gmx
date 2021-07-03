@@ -14,6 +14,8 @@
     <sound>sound\Scooter</sound>
     <sound>sound\Bicycle</sound>
     <sound>sound\Monocycle</sound>
+    <sound>sound\Success</sound>
+    <sound>sound\GoGo</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\YandexL</sprite>
@@ -32,6 +34,7 @@
     <sprite>sprites\DeliveryDeadR</sprite>
     <sprite>sprites\DeliveryDeadL</sprite>
     <sprite>sprites\Go</sprite>
+    <sprite>sprites\restart</sprite>
     <sprite>sprites\Chicken</sprite>
     <sprite>sprites\SamocatL</sprite>
     <sprite>sprites\SamocatR</sprite>
@@ -44,15 +47,25 @@
     <sprite>sprites\fine</sprite>
     <sprite>sprites\Granny</sprite>
     <sprite>sprites\GrannyDead</sprite>
+    <sprite>sprites\Press</sprite>
+    <sprite>sprites\fourlives</sprite>
+    <sprite>sprites\threelives</sprite>
+    <sprite>sprites\twolives</sprite>
+    <sprite>sprites\onelive</sprite>
+    <sprite>sprites\PlusLiveSpr</sprite>
+    <sprite>sprites\Faster</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\background1</background>
     <background>background\background2</background>
+    <background>background\background4</background>
+    <background>background\background5</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\font1</font>
+    <font>fonts\font2</font>
   </fonts>
   <objects name="objects">
     <object>objects\YandexObjL</object>
@@ -72,9 +85,11 @@
     <object>objects\PizzaObj</object>
     <object>objects\SushiObj</object>
     <object>objects\ChickenObj</object>
-    <object>objects\Start</object>
+    <object>objects\NextObj</object>
+    <object>objects\Timer</object>
     <object>objects\Start2</object>
-    <object>objects\score</object>
+    <object>objects\RestartObj</object>
+    <object>objects\scoreObj</object>
     <object>objects\BabyCarriageObj</object>
     <object>objects\GrannyObj</object>
     <object>objects\BabyCarriageBrokenObj</object>
@@ -84,11 +99,19 @@
     <object>objects\Shaker</object>
     <object>objects\center</object>
     <object>objects\musicObj</object>
+    <object>objects\totalObj</object>
+    <object>objects\Lives</object>
+    <object>objects\plusLive</object>
+    <object>objects\RoomSpeedObj</object>
+    <object>objects\fasterObj</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\screen</room>
+    <room>rooms\screen2</room>
     <room>rooms\room1</room>
     <room>rooms\room2</room>
+    <room>rooms\room3</room>
+    <room>rooms\room5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

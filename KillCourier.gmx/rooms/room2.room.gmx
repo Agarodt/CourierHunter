@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>600</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -53,9 +53,10 @@
   <instances>
     <instance objName="CurierGenerator" x="32" y="32" name="inst_B247D295" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="AimObj" x="192" y="96" name="inst_627EA2A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="score" x="608" y="64" name="inst_9302C941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="scoreObj" x="608" y="64" name="inst_9302C941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="center" x="416" y="288" name="inst_CADAE00C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="musicObj" x="288" y="64" name="inst_04091A8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lives" x="688" y="80" name="inst_848B5EEC" locked="0" code="" scaleX="0.516129016876221" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="RoomSpeedObj" x="272" y="32" name="inst_A42AFD89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

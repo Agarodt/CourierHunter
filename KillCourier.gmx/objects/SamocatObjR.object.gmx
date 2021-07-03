@@ -79,7 +79,7 @@ else {sp = 10}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = x + sp
+            <string>x = x + sp + global.acc
 
 </string>
           </argument>

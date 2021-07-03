@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.delivery = 2
-global.total += 100
+global.points += 100
 
 if random(2) &lt;= 1 {
 instance_create(DeliveryDeadObjR.x, DeliveryDeadObjR.y - 120, PizzaObj)}
